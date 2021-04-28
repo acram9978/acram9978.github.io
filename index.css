@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Zen+Dots&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+.content{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+
+header{
+    background-color: #ADFF2F;
+    border-radius: 0.75em;
+}
+h1{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 15%;
+    font-family: Zen Dots, Calibri, sans-serif;
+
+}
+
+
+footer{
+    background-color:#ADFF2F;
+    border-radius: 0.75em;
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    display: inline;
+}
+
+body{
+    font-family: Source Sans Pro, courier, sans-serif;
+}       
+
+img{
+    float: right;
+    margin-top: 2%;
+    margin-right: 10%;
+    box-shadow: 0 0 10px black;
+    width: 18%;
+}
+
+.assignments{
+    border-top: 5px black;
+}
+
+.body-heading{
+    margin-left: 3%;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
