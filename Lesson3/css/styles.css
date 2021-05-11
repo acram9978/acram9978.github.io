@@ -8,6 +8,14 @@ h1{
     text-align: center;
 }
 
+h1, h2, h3, h4{
+    font-family: "Alegreya SC", 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: "Baloo Tamma 2", Calibri, sans-serif;
+}
+
 .pagename {
     text-align: center;
     font-size: 3em;
@@ -66,6 +74,56 @@ img{
     text-align: center;
 }
 
+main {
+    background-color: white;
+    text-align: center;
+}
+
+main h2{
+    text-align: left;
+    border-bottom-style: solid;
+}
+
+.white{
+    border-style: solid;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.lightgray{
+    background-color: lightgray;
+}
+
+.darkgray{
+    background-color: darkgray;
+}
+
+.darkyellow{
+    background-color: rgb(168, 164, 0);
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.lightblue{
+    background-color: deepskyblue;
+}
+
+.navy{
+    background-color: navy;
+    color: white;
+}
+
+.example{
+    border-bottom-style: none;
+    text-align: center;
+}
+
+
 @media only screen and (min-width: 34.5em) {
     nav {
         max-width: 100%;
@@ -73,6 +131,7 @@ img{
 
     #navigation {
         grid-template-columns:repeat(7,auto);
+        justify-content: center;
     }
 
     #navigation li {
@@ -92,5 +151,6 @@ img{
     #navigation {
         width: 800px;
         margin: 10px auto;
+        justify-content: center;
     }
 }
