@@ -125,6 +125,10 @@ main h2{
 
 
 @media only screen and (min-width: 34.5em) {
+    body{
+        
+        margin: 0 auto;
+    }
     nav {
         max-width: 100%;
     }
