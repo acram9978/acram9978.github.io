@@ -136,6 +136,7 @@ p{
     color: green;
     font-size: 1.45em;
     text-align: center;
+    justify-self: center;
 }
 
 main{
@@ -205,6 +206,10 @@ footer p{
 }
 
 .fivedays{
+    display: none;
+}
+
+.address{
     display: none;
 }
 
@@ -354,7 +359,37 @@ main h2{
         box-shadow: 0px 0px 21px 5px #767676;
     }
 
+    footer{
+        grid-template-columns: 50% 5% 45%;
+    }
 
+    footer img{
+        justify-items: center;
+    }
+
+    .map{
+        margin-left: 1em;
+        grid-row: 2 / 4;
+        grid-column: 1 / 2;
+        width: 75%;
+    }
+
+    .email{
+        grid-column: 2 / 3;
+    }
+
+    .address{
+        display: grid;
+        grid-column: 2 / 3;
+    }
+
+    .phone{
+        grid-column: 2 / 3;
+    }
+
+    .footerbar{
+        grid-column: 1 / 4;
+    }
     
 }
 
