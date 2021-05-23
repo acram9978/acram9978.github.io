@@ -24,7 +24,7 @@ if (hour > 12){
     hour = hour + ":" + min + " " + "AM";
 };
 
-let day = currentDate.getDay();
+let day = currentDate.getDate();
 let month = currentDate.getMonth();
 
 if (month == 0){

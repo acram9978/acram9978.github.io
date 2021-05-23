@@ -204,6 +204,10 @@ footer p{
     justify-items: end;
 }
 
+.fivedays{
+    display: none;
+}
+
 
 
 
@@ -295,6 +299,63 @@ main h2{
     #navigation li:first-child {
         display: none;
     }
+
+    .ham{
+        display: none;
+    }
+
+    div.title{
+        margin: 0 auto;
+        font-size: large;
+    }
+
+    .summary {
+        position: relative;
+
+    }
+    .summary h2{
+        position: absolute;
+        left: 50px;
+        top: 30px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 10px;
+    }
+    .summary .smallp{
+        display: none;
+    }
+
+    .summary .bigp{
+        position: absolute;
+        left: 50px;
+        top: 80px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 10px;
+    }
+
+    .forecast-padding{
+        display: none;
+    }
+
+    .forecast{
+        text-align: left;
+    }
+
+    .fivedays{
+        /* display: block; */
+        display: flex;
+        justify-content: space-around;
+        max-width: 960px;
+        padding: 20px;
+    }
+    .fivedays img{
+        width: 10%;
+        box-shadow: 0px 0px 21px 5px #767676;
+    }
+
+
+    
 }
 
 @media only screen and (min-width: 54.5em) {
@@ -307,4 +368,11 @@ main h2{
     .fire{
         display: inline;
     }
+
+    div.title{
+        display: flex;
+        text-align: right;
+    }
+
+    
 }
