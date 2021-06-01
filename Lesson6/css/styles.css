@@ -1,0 +1,413 @@
+/* body{
+    background-color:deepskyblue;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2, h3, h4{
+    font-family: "Alegreya SC", 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: "Baloo Tamma 2", Calibri, sans-serif, serif;
+}
+
+.pagename {
+    text-align: center;
+    font-size: 3em;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: yellow;
+}
+*/
+
+body{
+    width: 100%;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    grid-template-columns: auto;
+    display: grid;
+    margin-top: 0;
+}
+
+#navigation li:first-child {
+    display: block;
+}
+
+#navigation li {
+    display: none;
+}
+
+#navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+#navigation a:hover, #navigation a.active:hover {
+    color: white;
+    background-color: black;
+}
+
+#navigation a.active {
+    background-color: rgba(0,0,0,.55);
+    color: white;
+}
+
+#navigation.responsive li {
+    display: block;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+
+.logo{
+    width: 20%;
+}
+
+.ham{
+    justify-self: center;
+    align-self: center;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+
+header a:link{
+    text-decoration: none;
+}
+
+
+header p{
+    
+}
+
+header nav{
+    grid-column: 1 / 4;
+}
+
+header h2{
+    font-family: "Alegreya SC", 'Times New Roman', Times, serif;
+    padding-top: 0.7em;
+    justify-self: flex-start;
+    align-items: flex-start;
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2, h3, h4{
+    font-family: "Alegreya SC", 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: "Baloo Tamma 2", "Calibri", sans-serif;
+}
+
+.top img{
+    position: relative;
+}
+
+.pancakes{
+
+    left: 12%;
+    top: 300px;
+    z-index: 15;
+    width: 75%;
+    background-color: rgba(250,250,250,.55);
+    border-radius: 5px;
+    color: green;
+    font-size: 1.45em;
+    text-align: center;
+    justify-self: center;
+}
+
+main{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: lightgray;
+}
+
+.fire{
+    display: none;
+}
+
+.forecast-padding{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-style: solid;
+}
+
+.forecast{
+    background-color: darkgray;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 0em;
+}
+
+.forecast-padding img{
+    margin-bottom: 0.5em;
+}
+footer{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: darkgray;
+}
+
+footer h3{
+    grid-column: 1 / 3;
+}
+
+footer img{
+    display: inline;
+    width: 100%;
+
+}
+
+footer p{
+    align-self: center;
+}
+
+.map{
+    grid-column: 1 / 3;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0px 7px 23px 4px rgba(0,0,0,0.73);
+    margin-bottom: 10px;
+}
+
+.footerbar{
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: black;
+    color:white;
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+    justify-items: end;
+}
+
+.fivedays{
+    display: none;
+}
+
+.address{
+    display: none;
+}
+
+
+
+
+/*
+
+img{
+    width: 100%;
+    margin-top: -5em;
+}
+
+.domain{
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+main h2{
+    text-align: left;
+    border-bottom-style: solid;
+}
+
+.white{
+    border-style: solid;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.lightgray{
+    background-color: lightgray;
+}
+
+.darkgray{
+    background-color: darkgray;
+}
+
+.darkyellow{
+    background-color: rgb(168, 164, 0);
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.lightblue{
+    background-color: deepskyblue;
+}
+
+.navy{
+    background-color: navy;
+    color: white;
+}
+
+.example{
+    border-bottom-style: none;
+    text-align: center;
+}
+
+*/
+
+
+@media only screen and (min-width: 34.5em) {
+    body{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    nav {
+        max-width: 100%;
+    }
+
+    #navigation {
+        grid-template-columns:repeat(7,auto);
+        justify-content: center;
+    }
+
+    #navigation li {
+        display: block;
+    }
+
+    #navigation a {
+        text-align: center;
+    }
+
+    #navigation li:first-child {
+        display: none;
+    }
+
+    .ham{
+        display: none;
+    }
+
+    div.title{
+        margin: 0 auto;
+        font-size: large;
+    }
+
+    .summary {
+        position: relative;
+
+    }
+    .summary h2{
+        position: absolute;
+        left: 50px;
+        top: 30px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 10px;
+    }
+    .summary .smallp{
+        display: none;
+    }
+
+    .summary .bigp{
+        position: absolute;
+        left: 50px;
+        top: 80px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 10px;
+    }
+
+    .forecast-padding{
+        display: none;
+    }
+
+    .forecast{
+        text-align: left;
+    }
+
+    .fivedays{
+        /* display: block; */
+        display: flex;
+        justify-content: space-around;
+        max-width: 960px;
+        padding: 20px;
+    }
+    .fivedays img{
+        width: 10%;
+        box-shadow: 0px 0px 21px 5px #767676;
+    }
+
+    footer{
+        grid-template-columns: 50% 5% 45%;
+    }
+
+    footer img{
+        justify-items: center;
+    }
+
+    .map{
+        margin-left: 1em;
+        grid-row: 2 / 4;
+        grid-column: 1 / 2;
+        width: 75%;
+    }
+
+    .email{
+        grid-column: 2 / 3;
+    }
+
+    .address{
+        display: grid;
+        grid-column: 2 / 3;
+    }
+
+    .phone{
+        grid-column: 2 / 3;
+    }
+
+    .footerbar{
+        grid-column: 1 / 4;
+    }
+    
+}
+
+@media only screen and (min-width: 54.5em) {
+    #navigation {
+        width: 800px;
+        margin: 0px auto;
+        justify-content: center;
+    }
+
+    .fire{
+        display: inline;
+    }
+
+    div.title{
+        display: flex;
+        text-align: right;
+    }
+
+    
+}
