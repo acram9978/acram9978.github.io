@@ -52,58 +52,59 @@
         </section>
 
         <section class="form">
-            <p>Full Name</p>
-            <input type="text" name="name" required placeholder="Enter Full Name">
-            <p>Email: </p>
-            <input type="email" name="emailaddress" id="email" placeholder="email@random.com">
-            <p>Phone Number: </p>
-            <input type="tel" name="phonenumber" id="phone" required placeholder="000-000-0000">
-            <p>Zip Code:</p>
-            <input type="number" name="zipcode" id="zip" required>
-            <p>Storm Date: </p>
-            <input type="date" name="stormdate" id="date" required>
-            <p>Storm Type: </p>
-            <input list="stormtype" name="typeofstorm">
-            <datalist id="stormtype">
-                <option value="Flash Flood">
-                <option value="Hail">
-                <option value="Hurricane">
-                <option value="Thunderstorm">
-                <option value="Tornado">
-            </datalist>
-            <br>
-            <br>
-            <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+            <form>
+                <p>Full Name</p>
+                <input type="text" name="name" required placeholder="Enter Full Name">
+                <p>Email: </p>
+                <input type="email" name="emailaddress" id="email" placeholder="email@random.com">
+                <p>Phone Number: </p>
+                <input type="tel" name="phonenumber" id="phone" required placeholder="000-000-0000">
+                <p>Zip Code:</p>
+                <input type="number" name="zipcode" id="zip" required>
+                <p>Storm Date: </p>
+                <input type="date" name="stormdate" id="date" required>
+                <p>Storm Type: </p>
+                <input list="stormtype" name="typeofstorm">
+                <datalist id="stormtype">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
                 <br>
                 <br>
-                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                <span id="ratingvalue">5</span>
-            </label>
-            <p>Storm Region</p>
-            <select name="region" id="stormregions">
-                <option value="value" selected disabled>Select Region...</option>
-                <option value="preston">Preston</option>
-                <option value="sodasprings">Soda Springs</option>
-                <option value="fishhaven">Fish Haven</option>
-            </select>
-            <p>In-Danger Level</p>
-            <input type="radio" name="danger" id="danger-yes" value="yes">
-            <label for="danger-yes">Yes</label>
-            <input type="radio" name="danger" id="danger-maybe" value="maybe">
-            <label for="danger-maybe">Maybe</label>
-            <input type="radio" name="danger" id="danger-no" value="no">
-            <label for="danger-no">No</label>
-            <br>
-            <br>
-            <label>Comments:
+                <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                    <br>
+                    <br>
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </label>
+                <p>Storm Region</p>
+                <select name="region" id="stormregions">
+                    <option value="value" selected disabled>Select Region...</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+                </select>
+                <p>In-Danger Level</p>
+                <input type="radio" name="danger" id="danger-yes" value="yes">
+                <label for="danger-yes">Yes</label>
+                <input type="radio" name="danger" id="danger-maybe" value="maybe">
+                <label for="danger-maybe">Maybe</label>
+                <input type="radio" name="danger" id="danger-no" value="no">
+                <label for="danger-no">No</label>
+                <br>
+                <br>
+                <label>Comments:
 
-            <br>
-            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
-            </label>
-            <br>
-            <br>
-            <input type="submit" value="Submit" name="submission" id="button" >
-
+                <br>
+                <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+                </label>
+                <br>
+                <br>
+                <input type="submit" value="Submit" name="submission" id="button" >
+            </form>
         </section>
 
         <h2 class="forecast">Five Day Forecast</h2>
