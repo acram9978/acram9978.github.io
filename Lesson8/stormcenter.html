@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in Preston, Idaho</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/stormcenter.css">
+</head>
+<body>
+    <div class="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>  
+    <header>
+        <img class="logo" src="images/logo.png" alt="logo">
+        <div class="title">
+            <h2>Preston Skies</h2>
+            <p>Life is Looking Up</p>
+        </div>
+        
+        <a class="ham" href="#">&#9776;</a>
+    </header>
+    <main>
+        <nav>
+            <ul id="navigation">
+                <li></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <section class="top">
+            <h1>Storm Center</h1>
+            <div class="summary">
+                <picture class="hero">
+                    <source media="(min-width:34.5em)" srcset="C:\Users\Aaron Cram\Documents\Schoolspring21\webfrontend1\git\acram9978.github.io-1\Lesson6\images\wdd230_image_franklinOriginal_Large.jpg">
+                    <source media="(min-width:54.5em)" srcset="images\wdd230_image_franklin_medium.jpg">
+                    <img src="images\wdd230_image_franklin_small.jpg" alt="banner image small" style="width:auto;">
+                </picture>
+                <!--<img src="images/wdd230_image_franklinOriginal.jpeg" alt="hero">-->
+                <h2>Weather Summary</h2>
+                <p class="smallp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum voluptatum veniam atque odio ea. Ex repellat nulla ratione animi facilis, repudiandae accusamus sapiente quis voluptatum fugit facere veniam laudantium in non dolores ipsam iusto natus dolore reiciendis rerum sequi molestiae quidem quo veritatis! Vel dolores maiores doloremque, animi maxime ad.</p>
+                <p class="bigp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores tempore asperiores earum! Fugit cupiditate tenetur at aliquam architecto laudantium optio.</p>
+                <p class="windchill">Wind Chill: <span id="chill"></span>&#8457;</p>
+            </div>
+        </section>
+
+        <section class="form">
+            <p>Full Name</p>
+            <input type="text" name="name" required placeholder="Enter Full Name">
+            <p>Email: </p>
+            <input type="email" name="emailaddress" id="email" placeholder="email@random.com">
+            <p>Phone Number: </p>
+            <input type="tel" name="phonenumber" id="phone" required placeholder="000-000-0000">
+            <p>Zip Code:</p>
+            <input type="number" name="zipcode" id="zip" required>
+            <p>Storm Date: </p>
+            <input type="date" name="stormdate" id="date" required>
+            <p>Storm Type: </p>
+            <input list="stormtype" name="typeofstorm">
+            <datalist id="stormtype">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist>
+            <br>
+            <br>
+            <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+            </label>
+            <p>Storm Region</p>
+            <select name="region" id="stormregions">
+                <option value="value" selected disabled>Select Region...</option>
+                <option value="preston">Preston</option>
+                <option value="sodasprings">Soda Springs</option>
+                <option value="fishhaven">Fish Haven</option>
+            </select>
+            <p>In-Danger Level</p>
+            <input type="radio" name="danger" id="danger-yes" value="yes">
+            <label for="danger-yes">Yes</label>
+            <input type="radio" name="danger" id="danger-maybe" value="maybe">
+            <label for="danger-maybe">Maybe</label>
+            <input type="radio" name="danger" id="danger-no" value="no">
+            <label for="danger-no">No</label>
+            <br>
+            <br>
+            <label>Comments:
+
+            <br>
+            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+            </label>
+            <br>
+            <br>
+            <input type="submit" value="Submit" name="submission" id="button" >
+
+        </section>
+
+        <h2 class="forecast">Five Day Forecast</h2>
+        <div class="forecast-padding">
+            <h3>Article Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam placeat a obcaecati impedit ab, voluptatum exercitationem. Atque itaque illum cupiditate eos quod. Eligendi, sunt porro. Sed eum, quae aliquam vel magnam iste eius laudantium eaque facere quis. Culpa dolorem itaque porro minima saepe placeat alias modi et! Totam, explicabo veritatis?</p>
+            <img src="images/weatherforecast.jpg" alt="weather forecast">
+        </div>
+        <div class="fivedays">
+            <img src="images/sunny.png" alt="sunny"><img src="images/rainy.png" alt="rainy"><img src="images/snowy.png" alt="snowy"><img src="images/sunny.png" alt="sunny"><img src="images/thunder.png" alt="thundery">
+        </div>
+    </main>
+    <footer>
+        <h3>Contact Information</h3>
+        <img src="images/pin9-512.png" alt="address pin icon" class="address">
+        <p>213 E 2nd S, Preston, ID 83263</p>
+        <img class="email" src="images/email-icon.png" alt="email">
+        <p>questions@prestonskies.com</p>
+        <img class="phone" src="images/Phone_communication_icon.png" alt="phone" >
+        <p>208-777-7771</p>
+        <img class="map" src="images/1200px-Franklin_County_Idaho_Incorporated_and_Unincorporated_areas_Preston_Highlighted.svg.jpg" alt="map">
+        <div class="footerbar">
+            <p class="">&#169; <span class="copy-year"></span></p>
+            <p class="footerbar3"><span class="date"></span></p>
+        </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/windchill.js"></script>
+    <script src="javascript/stormcenter.js"></script>
+</body>
+</html>
