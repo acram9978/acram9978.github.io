@@ -1,6 +1,4 @@
 
-let value = document.querySelector("#severity").value;
-document.querySelector("#range").textContent = value;
 
 let button = document.querySelector("#button");
 button.addEventListener("click", function() {
