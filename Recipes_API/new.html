@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake ID</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background: url(smallID.png) no-repeat;
+            
+        }
+        .topstuff {
+            display: grid;
+            grid-template-columns: 235px;
+        }
+        h1 {
+            font-family: 'Inconsolata', monospace;
+        }
+        .wrapper {
+            font-family: 'Inconsolata', monospace;
+            margin-top: 10em;
+            margin-left: 3em;
+            line-height: 2em;
+            font-size: 1.26em;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topstuff">
+    <h1>Fake IDs <i>Unleashed</i></h1>
+    <p>Welcome to Fake IDs Unleashed! tired of being you? Want to ride all the rides you can't? Just hit the button until you find someone you want to be! </p>
+    <button onclick="getInfo()">Click here for new ID</button>
+</div>
+    <div class='wrapper'>
+        <div>Full Name: <span id="fullName"></span></div>
+        <div>Password: <span id='password'></span></div>
+        <div>Email Address: <span id='email'></span></div>
+        <div>City, Country: <span id="cityCountry"></span></div>
+        <div>How Many Children: <span id="children"></span></div>
+        <div>IP Address: <span id="ip"></span></div>
+        <div id='picture'></div>
+    </div>
+
+    <script>
+        const url = "https://www.ahfx.com/person.php";
+        
+        async function getInfo() {
+            const response = await fetch(url);
+            const data = await response.json();
+            
+            /*console.log(data.person);*/
+            const {person} = data;
+            
+            document.getElementById("fullName").textContent = person["personal"]["name"] + " " +  person["personal"]["last_name"];
+            document.getElementById("password").textContent = person["online_info"]["password"];
+            document.getElementById("email").textContent = person["online_info"]["email"];
+            document.getElementById("cityCountry").textContent = person["personal"]["city"] + ", " + person["personal"]["country"];
+            document.getElementById("children").textContent = person["marriage"]["children"];
+            document.getElementById("ip").textContent = person["online_info"]["ip_address"];
+
+            
+        }
+        getInfo();
+            /*
+                if(response.status==200){
+                    console.log(response);
+                    return response.json();
+                }
+                else {
+                    throw new Error("no meals found"+response.status);
+                    }
+                }
+            
+        }
+        
+        */
+
+            
+
+    </script>
+</body>
+
+</html>
