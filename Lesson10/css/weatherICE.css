@@ -1,0 +1,37 @@
+ /*
+colors to use:
+ #616C91;
+#685487; */
+
+ body {
+   font-family: 'Ubuntu',
+     sans-serif;
+ }
+
+
+ h1, p, ul {
+   color: white;
+
+ }
+
+ #todaysweather li {
+   list-style-type: none;
+ }
+
+ .fiveday {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+ }
+
+
+ section.card1 {
+   background: url("../images/onthewater.jpg") no-repeat;
+   max-width: 550px;
+   width: 100%;
+   height: 1100px;
+   border-radius: 30px 30px 30px 30px;
+   background-color: yellow;
+ }
+
+
