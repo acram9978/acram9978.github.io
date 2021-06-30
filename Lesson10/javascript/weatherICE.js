@@ -60,7 +60,7 @@ fetch(requestURL)
 
 
 window.addEventListener("load", (event) => {
-const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?zip=83440&units=imperial&appid=96f881dc52b0a77480e60ae03cff87e0'
+const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?zip=83440&units=imperial&cnt=4&appid=96f881dc52b0a77480e60ae03cff87e0'
 fetch(requestURL)
 .then(function (response) {
     return response.json()
