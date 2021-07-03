@@ -1,0 +1,39 @@
+section {
+    background-color: #B9B9CC;
+    text-align: center;
+    border-style: #4E4E96;
+    width: 100%;
+}
+h2{
+    color:  #4E4E96; 
+}
+
+h1{
+    color: #4E4E96;
+    text-align: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    box-shadow: 5px 5px 15px 5px #000000;
+    
+}
+
+img{
+    box-shadow: 5px 5px 15px 5px #000000;
+    width: 85%;
+}
+
+@media (min-width:641px) {
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:1025px) {
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
