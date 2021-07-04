@@ -342,10 +342,37 @@ main h2{
         padding: 10px;
     }
 
+    .summary .currentConditions{
+        position: absolute;
+        left: 50px;
+        top: 118px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 10px;
+    }
+
+    .summary .humidityNum{
+        position: absolute;
+        left: 50px;
+        top: 156px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 10px;
+    }
+
     .summary .windchill{
         position: absolute;
         left: 50px;
-        top: 192px;
+        top: 194px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 10px;
+    }
+
+    .summary .windiness{
+        position: absolute;
+        left: 50px;
+        top: 232px;
         width: 250px;
         background-color: rgba(255, 255, 255, 0.6);
         padding: 10px;
