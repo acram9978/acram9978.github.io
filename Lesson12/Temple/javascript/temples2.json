@@ -1,0 +1,106 @@
+[
+    {
+        "name":"Jordan River Temple",
+        "phone":"801-254-3003",
+        "email": "jordanrivertemple@churchofjesuschrist.org",
+        "address1":"10200 S Temple Drive",
+        "city":"South Jordan",
+        "state":"UT",
+        "zip":84095,
+        "services": ["Clothing Rental", "Distribution Center Nearby"],
+        "history": "Unlike many of the temples, which are built mostly with tithing funds, the Jordan River Temple site was given to the church and all of its construction was paid for by members in the 134 stakes within the temple district.",
+        "ordinance-schedule": "Please contact the temple with ordinance scheduling questions",
+        "session-schedule": "Please contact the temple with session scheduling questions",
+        "closures": ["24 July 2021",
+            "6 September 2021", 
+            "2 October 2021", 
+            "4 November 2021 (Limited Operations)",
+            "25 November 2021",
+            "30 November 2021 - 13 December 2021",
+            "24 December 2021 - 25 December 2021",
+            "31 December 2021 (Limited Operations)"
+        ],
+        "weather": "WeatherInfohere",
+        "imageurl":"https://assets.ldscdn.org/e5/54/e5546a3599c023ba83a4d751fb6fc196b5ab6ada/jordan_river_temple_exterior_images.jpeg",
+        "presidents":[
+            "Donovan H. Van Dam","H. Burke Peterson","John A. Larsen","Wm. Grant Bangerter","C. Elliott Richards","LeGrand R. Curtis","Loring M. Hampton","Ben B. Banks","Robert L. Backman","F. Wayne Chamberlain","Robert P. Haight","William A. Schaefermeyer","Craig P. Burton"
+        ]
+    },
+
+    {
+        "name":"Rexburg Idaho Temple",
+        "phone":"208-656-0880",
+        "email": "rexburgidahotemple@churchofjesuschrist.org",
+        "address1":"750 S 2nd E",
+        "city":"Rexburg",
+        "state":"ID",
+        "zip":83440,
+        "services": ["Clothing Rental", "Distribution Center Nearby"],
+        "history": "The Rexburg Idaho Temple was the third temple built in Idaho, following the Idaho Falls Idaho Temple (1945) and the Boise Idaho Temple (1984). The announcement of the Rexburg Idaho Temple came three and a half years after the announcement that two-year Ricks College would become four-year Brigham Young University–Idaho. ",
+        "ordinance-schedule": "Please contact the temple with ordinance scheduling questions",
+        "session-schedule": "Please contact the temple with session scheduling questions",
+        "closures": ["23 July 2021 (Limited Operations)",
+            "24 July 2021",
+            "30 August 2021 - 6 September 2021", 
+            "2 October 2021", 
+            "24 November 2021 - 25 November 2021",
+            "24 December 2021 - 25 December 2021",
+            "31 December 2021 - 1 January 2022"
+        ],
+        "weather": "WeatherInfohere",
+        "imageurl":"https://assets.ldscdn.org/29/8a/298a8b01fbc736923e83e7c748e60abcad8511c9/rexburg_idaho_temple.jpeg",
+        "presidents":[
+            "Val R. Christensen","Clair O. Thueson","Philip C. Wightman","Fenton L. Broadhead","Max L. Checketts"
+        ]
+    } ,   
+    {
+        "name":"Manila Philippines Temple",
+        "phone":"(63) 2-8635-9111",
+        "email":"manilaphilippinestemple@churchofjesuschrist.org",
+        "address1":"13 Temple Drive corner, Whiteplains Avenue Greenmeadows Subdivision, UGONG NORTE",
+        "city":"Quezon City",
+        "state":"Metro Manila",
+        "zip":1110,
+        "services": ["Clothing Rental", "Distribution Center Nearby"],
+        "history": "The street where the Manila Philippines Temple is located was renamed to Temple Drive during the temple's construction. A typhoon approached Manila the day before the groundbreaking of the Manila Philippines Temple, creating concern that would event would have to be postponed. At a mission conference that evening, a missionary prayed for the weather to cooperate so that the groundbreaking could continue. The typhoon changed direction that night, and the groundbreaking proceeded as planned.Nearly 27,000 toured the interior of the Manila Philippines Temple during its 13-day open house held prior to its dedication. The days prior to the dedication of the Manila Philippines Temples saw several natural disasters in the Philippines including two typhoons, the eruption of Mayon volcano on Bicol Peninsula, and an earthquake in northern Luzon. The temple remained unaffected.",
+        "ordinance-schedule": "Please contact the temple with ordinance scheduling questions",
+        "session-schedule": "Please contact the temple with session scheduling questions",
+        "closures": ["2 August 2021 - 16 August 2021",
+            "9 October 2021",
+            "24 December 2021", 
+            "25 December 2021", 
+            "31 December 2021"
+        ],
+        "weather": "WeatherInfohere",
+        "imageurl":"https://assets.ldscdn.org/c6/4a/c64a6408b3b68c7873eaf06352c172a9c5eb5586/manila_philippines_temple_lds.jpeg",
+        "presidents":[
+            "W. Garth Andrus","Floyd H. Hogan","F. Briton McConkie","Myron L. Francom","Augusto A. Lim", "Robert J. Tingey", "Ray W. Nelson", "Earl M. Monson", "Moises M. Mabunga Jr.", "Reynaldo L. Cuyong", "Modesto M. Amistad", "Carlos C. Revillo Sr.", "Victorino A. Babida"
+        ]
+    },
+
+    {
+        "name":"Portland Oregon Temple",
+        "phone":"503-639-7066",
+        "address1":"13600 Kruse Oaks Blvd",
+        "city":"Lake Oswego",
+        "state":"OR",
+        "zip":90735,
+        "services": ["Clothing Rental", "Distribution Center Nearby"],
+        "history": "The Portland Oregon Temple was the first temple built in Oregon. The Portland Oregon Temple sits on land originally purchased in the 1960s for a Church junior college. Later, when the decision was reversed, 7.3 acres were retained for the temple. On February 25, 2012, the Portland Oregon Temple Visitors' Center opened its doors to the public. On June 9, 2013, it was formally dedicated by Bishop Gary E. Stevenson. The visitors' center is located next to the temple in a building that originally housed Distribution Services. When Distribution Services was relocated by a Deseret Book, a short distance away, it was decided that the building would be converted to a visitors' center.",
+        "ordinance-schedule": "Please contact the temple with ordinance scheduling questions",
+        "session-schedule": "Please contact the temple with session scheduling questions",
+        "closures": [" 26 July 2021 - 16 August 2021",
+            "2 October 2021",
+            "24 November 2021 (Limited Operations)", 
+            "25 November 2021", 
+            "24 December 2021",
+            "25 December 2021",
+            "31 December 2021"
+        ],
+        "weather": "WeatherInfohere",
+        "imageurl":"https://assets.ldscdn.org/2c/77/2c77d5fd39c0646e0122b1a1472f1d538aa3aa7e/portland_oregon_temple.jpeg",
+        "presidents":[
+            "L. Edward Perry","Thomas Y. Emmett","Philip T. Sonntag","Keith L. Sellers","George D. Weight", "Nicholas P. Collins", "R. Conrad Schultz", "Myron G. Child", "Steven H. Pond", "David A. Lundgreen", "David L. Garner"
+        ]
+    } 
+]
