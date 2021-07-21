@@ -1,0 +1,26 @@
+h3 {
+    font-family: "Great Vibes", 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.otherMethods{
+    padding: 2em;
+    padding-top: 0;
+}
+
+.top-section p{
+    padding: 1em;
+}
+
+input.submit{
+    display: flex;
+    background-color: #d5a251;
+    border-radius: 10px 10px 10px 10px;
+    width: 50%;
+    height: 50px;
+    font-family: "Raleway", Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-bottom: 2em;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+img {
+    width: 100%;
+}
+
+#temple-container {
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+    background-color: #bfc2b0;
+}
+
+@media only screen and (min-width: 34.5em) {
+    main{
+        display: block;
+    }
+
+    #temple-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #temple-container section{
+        padding:1em;
+        border: black;
+    }
+}
